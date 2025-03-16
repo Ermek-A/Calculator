@@ -66,6 +66,30 @@ This project is a **JavaFX-based calculator** that supports both **basic arithme
 
 ---
 
+
+## 6. Additional Details
+
+- **Why JavaFX?**  
+  JavaFX provides a modern UI framework for Java applications and allows for easy UI customization with FXML.
+
+- **Future Improvements**  
+  - Implement parentheses for complex expressions.  
+  - Add a history feature to view past calculations.  
+  - Allow keyboard input for faster calculations.  
+
+---
+
+## 7. TEST
+- First run the code in Calcultor.java
+- ![Calculator Screenshot](1.jpg)
+- Then you wirte first number
+- ![Calculator Screenshot2](2.jpg)
+- After you write operatiion
+- ![Calculator Screenshot3](3.jpg)
+- You click to eqaul
+- ![Calculator Screenshot4](4.jpg)
+  
+
 ### **Example Code: Operator Handling**
 ```java
 @FXML
@@ -91,31 +115,4 @@ private void onOperatorClick(javafx.event.ActionEvent event) {
         operator = "";
         start = true;
     }
-}
-
----
-
-## 6. Additional Details
-
-- **Why JavaFX?**  
-  JavaFX provides a modern UI framework for Java applications and allows for easy UI customization with FXML.
-
-- **Future Improvements**  
-  - Implement parentheses for complex expressions.  
-  - Add a history feature to view past calculations.  
-  - Allow keyboard input for faster calculations.  
-
----
-
-## 7. TEST
-- First run the code in Calcultor.java
-- ![Calculator Screenshot](1.jpg)
-- Then you wirte first number
-- ![Calculator Screenshot2](2.jpg)
-- After you write operatiion
-- ![Calculator Screenshot3](3.jpg)
-- You click to eqaul
-- ![Calculator Screenshot4](4.jpg)
-  
-
-This documentation provides an overview of the **design, algorithms, challenges, and improvements** in this JavaFX calculator project. 🚀  
+} 🚀  
