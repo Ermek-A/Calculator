@@ -88,13 +88,13 @@ This project does **not** use external files for input or output.
 
 ## 7. TEST
 - First run the code in Calcultor.java
-![Calculator Screenshot](1.jpg)
--Then you wirte first number
-![Calculator Screenshot2](2.jpg)
--After you write operatiion
-![Calculator Screenshot3](3.jpg)
--You click to eqaul
-![Calculator Screenshot4](4.jpg)
+- ![Calculator Screenshot](1.jpg)
+- Then you wirte first number
+- ![Calculator Screenshot2](2.jpg)
+- After you write operatiion
+- ![Calculator Screenshot3](3.jpg)
+- You click to eqaul
+- ![Calculator Screenshot4](4.jpg)
   
 
 This documentation provides an overview of the **design, algorithms, challenges, and improvements** in this JavaFX calculator project. 🚀  
