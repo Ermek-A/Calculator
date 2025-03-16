@@ -1,7 +1,7 @@
 # JavaFX Calculator - Documentation
 
-## Calculator.java and Controller.java in this path Calculator/src/main/java/com/example/
-## view.fxml in 
+## Calculator.java and Controller.java in this path Calculator/src/main/java/com/example/javaprojecttest/
+## view.fxml in Calculator/src/main/resources/com/example/javaprojecttest/
 
 
 ## 1. Project Overview
