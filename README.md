@@ -66,11 +66,32 @@ This project is a **JavaFX-based calculator** that supports both **basic arithme
 
 ---
 
-## 5. File Input/Output
-
-This project does **not** use external files for input or output.  
-- All input is taken directly from user interactions through the UI.  
-- Output is displayed in the `TextField`.  
+### **Example Code: Operator Handling**
+```java
+@FXML
+private void onOperatorClick(javafx.event.ActionEvent event) {
+    String value = ((Button) event.getSource()).getText();
+    if (!value.equals("=")) {
+        if (!operator.isEmpty()) return;
+        operator = value;
+        num1 = Double.parseDouble(display.getText());
+        display.setText("");
+    } else {
+        if (operator.isEmpty()) return;
+        double num2 = Double.parseDouble(display.getText());
+        double result = switch (operator) {
+            case "+" -> num1 + num2;
+            case "-" -> num1 - num2;
+            case "×" -> num1 * num2;
+            case "/" -> num2 != 0 ? num1 / num2 : 0;
+            case "^" -> Math.pow(num1, num2);
+            default -> 0;
+        };
+        display.setText(String.valueOf(result));
+        operator = "";
+        start = true;
+    }
+}
 
 ---
 
