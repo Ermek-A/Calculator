@@ -90,11 +90,11 @@ This project does **not** use external files for input or output.
 - First run the code in Calcultor.java
 ![Calculator Screenshot](1.jpg)
 -Then you wirte first number
-2.jpg
+![Calculator Screenshot2](2.jpg)
 -After you write operatiion
-3.jpg
+![Calculator Screenshot3](3.jpg)
 -You click to eqaul
-4.jpg
+![Calculator Screenshot4](4.jpg)
   
 
 This documentation provides an overview of the **design, algorithms, challenges, and improvements** in this JavaFX calculator project. 🚀  
