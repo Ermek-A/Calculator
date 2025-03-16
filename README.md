@@ -1,5 +1,9 @@
 # JavaFX Calculator - Documentation
 
+## Calculator.java and Controller.java in this path Calculator/src/main/java/com/example/
+## view.fxml in 
+
+
 ## 1. Project Overview
 
 This project is a **JavaFX-based calculator** that supports both **basic arithmetic operations** and **advanced mathematical functions**. The graphical user interface (GUI) is designed using **FXML** for layout and **JavaFX** for handling events and user interactions.
